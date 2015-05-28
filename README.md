@@ -10,7 +10,7 @@ It is intended as a usage example for the [excel-templates](https://github.com/t
 (use '[excel-templates-example/portfolio])
 
 (-> my-portfolio
-    get-portfolio-status
+    get-portfolio-history
     create-row-data
     apply-template)
 ```
